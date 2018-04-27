@@ -1,8 +1,9 @@
 .jumbotron-bgi {
-  background: url("/images/99Juta1.jpg");
+  background: url("images/99Juta6.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  color: white;
+  color: black;
+  height: 100%;
 }
 
 
