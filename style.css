@@ -6,10 +6,32 @@
   height: 100%;
 }
 
+.cutextblock {
+    background-color: #3c3d41;
+    color: white;
+    width: 1127px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.center-justified {
+  text-align: justify;
+  margin: 0 auto;
+  width: 30em;
+}
+
+.nopad {
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}
+
 
 .footer-bs {
   background-color: #3c3d41;
-	padding: 60px 40px;
 	color: rgba(255,255,255,1.00);
 	margin-bottom: 20px;
 	border-bottom-right-radius: 6px;
