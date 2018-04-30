@@ -4,10 +4,11 @@
 
 .bg-cu {
   background-color: #810000;
+  height: 38px;
 }
 
 .jumbotron-bgi {
-  background: url("images/99Juta6.jpg");
+  background: url("images/99Juta61.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   color: black;
@@ -38,6 +39,7 @@
   background-color: #810000;
   opacity: 0.9;
   color: white;
+  text-align: left;
 }
 
 
@@ -67,6 +69,9 @@
   color: white;
   padding-left: 20px;
   padding-right: 20px;
+  border-right: solid 1px ;
+  border-color: rgba(255,255,255,0.10);
+
 }
 
 .navbar-dark .navbar-nav .nav-link .mr-sm-2 {
