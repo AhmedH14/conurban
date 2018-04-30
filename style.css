@@ -1,5 +1,5 @@
 .navbar {
-  padding-right: 0px;
+  padding-right: 5px;
 }
 
 .bg-cu {
@@ -7,16 +7,36 @@
 }
 
 .jumbotron-bgi {
-  background: url("images/99Juta6.jpg");
-  background-size: cover;
+  background: url("images/99J.jpg");
+  max-width:1440px;
+  max-height:529px;
+  width: auto;
+  height: auto;
   background-repeat: no-repeat;
   color: black;
   height: 100%;
 }
 
+.abb {
+  background-color: #810000;
+  opacity: 0.9;
+  color: white;
+}
+
+.abb1 {
+  background-color: #FF8607;
+  opacity: 0.9;
+  color: black;
+}
+
+
+.pad {
+  padding: 2px;
+}
+
 .cutextblock {
     background-color: #ffffff;
-    opacity: 0.8;
+    opacity: 0.4;
     color: black;
     width: 1127px;
     padding-left: 0px;
@@ -34,6 +54,8 @@
 
 .nav-link {
   color: white;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .navbar-dark .navbar-nav .nav-link .mr-sm-2 {
@@ -62,7 +84,9 @@
 .footer-bs {
   background-color: #810000;
 	color: rgba(255,255,255,1.00);
-	margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+	margin-bottom: 0px;
 	border-bottom-right-radius: 6px;
 	border-top-left-radius: 0px;
 	border-bottom-left-radius: 6px;
@@ -102,7 +126,6 @@
 	font-size: 11px;
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	margin-bottom:10px;
 }
 .footer-bs .footer-ns p { font-size:12px; color:rgba(255,255,255,0.70); }
 
