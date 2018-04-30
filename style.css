@@ -7,26 +7,37 @@
 }
 
 .jumbotron-bgi {
-  background: url("images/99J.jpg");
+  background: url("images/99Juta6.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+}
+
+.jumbotron-bgii {
+  background: url("images/99JJ.jpg");
   max-width:1440px;
   max-height:529px;
-  width: auto;
+  width: inherit;
   height: auto;
   background-repeat: no-repeat;
   color: black;
-  height: 100%;
 }
-
 .abb {
-  background-color: #810000;
-  opacity: 0.9;
+  background-color: black;
+  opacity: 0.8;
   color: white;
 }
 
 .abb1 {
   background-color: #FF8607;
   opacity: 0.9;
-  color: black;
+  color: #810000;
+}
+
+.abb3 {
+  background-color: #810000;
+  opacity: 0.9;
+  color: white;
 }
 
 
