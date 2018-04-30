@@ -1,3 +1,11 @@
+.navbar {
+  padding-right: 0px;
+}
+
+.bg-cu {
+  background-color: #810000;
+}
+
 .jumbotron-bgi {
   background: url("images/99Juta6.jpg");
   background-size: cover;
@@ -7,18 +15,28 @@
 }
 
 .cutextblock {
-    background-color: #3c3d41;
-    color: white;
+    background-color: #ffffff;
+    opacity: 0.8;
+    color: black;
     width: 1127px;
     padding-left: 0px;
     padding-right: 0px;
+}
+
+.jumbotron-heading {
+  font-weight: bold;
+  opacity: 1;
 }
 
 .dropdown-item {
   color: white;
 }
 
-.navbar-dark .navbar-nav .nav-link {
+.nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link .mr-sm-2 {
   color: white;
 }
 
@@ -37,9 +55,12 @@
   margin-bottom: 0;
 }
 
+.fm {
+  margin-top: 48px;
+}
 
 .footer-bs {
-  background-color: #3c3d41;
+  background-color: #810000;
 	color: rgba(255,255,255,1.00);
 	margin-bottom: 20px;
 	border-bottom-right-radius: 6px;

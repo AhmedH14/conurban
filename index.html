@@ -27,24 +27,30 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-      <div class="collapse navbar-collapse bg-danger align-items-right" id="navbarsExample03">
+      <div class="collapse navbar-collapse bg-cu" id="navbarsExample03">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">Company Profile</a>
           </li>
-          <li class="nav-item dropdown">
+          <li class="nav-item active dropdown">
             <a class="nav-link dropdown-toggle" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Property Management</a>
-            <div class="dropdown-menu bg-danger ddw" aria-labelledby="dropdown03">
+            <div class="dropdown-menu bg-cu ddw" aria-labelledby="dropdown03">
               <a class="dropdown-item" href="http://www.conurban.co.za/index.php?option=com_content&view=article&id=87&Itemid=181">Property Management</a>
               <a class="dropdown-item" href="http://www.conurban.co.za/index.php?option=com_content&view=article&id=92&Itemid=193">Financial Administration Management</a>
               <a class="dropdown-item" href="http://www.conurban.co.za/index.php?option=com_content&view=article&id=93&Itemid=195">What We Offer</a>
             </div>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="#">Rental Services</a>
+          </li>
+        </ul>
+
+        <ul class="nav-link my-2 my-lg-0">
+          <li class="nav-link">
+           <a class="nav-link" href="#contact"> Contact Us </a>
           </li>
         </ul>
       </div>
@@ -54,7 +60,7 @@
   <main role="main">
 
     <section class="jumbotron jumbotron-bgi">
-      <div class="container cutextblock text-center">
+      <div id="home" class="container cutextblock text-center">
         <h1 class="jumbotron-heading">Consolidated Urban Property Holdings</h1>
         <p class="lead my-3 text-black">Consolidated Urban Corporation is a property investment company incorporated in South Africa. Our focus of activity is the acquiring of properties mainly entire City Blocks in Johannesburg CBD which are close to major transport nodes or University
           campuses. We readapt the use of these properties to residential and retail with the view to controlling the areas in which we operate.</p>
@@ -118,8 +124,7 @@
 
   </main>
 
-  <div class="container">
-    <section style="height:80px;"></section>
+  <div class="fm">
     <div class="row" style="text-align:center;">
 
     </div>
@@ -151,7 +156,7 @@
           </div>
         </div>
         <div class="col-md-3 footer-social animated fadeInDown">
-          <h4>Contact Us</h4>
+          <h4 id="contact">Contact Us</h4>
           <ul>
             <li><a href="mailto: info@conurban.co.za"><i class="fas fa-envelope-square"></i> info@conurban.co.za</a></li>
             <li><a href="#"><i class="fas fa-phone-square"></i> +27 11 025 6526/7</a></li>
